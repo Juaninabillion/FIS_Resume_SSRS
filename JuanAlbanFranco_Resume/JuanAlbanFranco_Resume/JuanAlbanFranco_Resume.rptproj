@@ -52,7 +52,7 @@
     <DataSource Include="FIS_Playpen.rds" />
   </ItemGroup>
   <ItemGroup>
-    <Report Include="Report1.rdl" />
+    <Report Include="Juan_Alban_Franco_Resume.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
