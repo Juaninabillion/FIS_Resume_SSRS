@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "JuanAlbanFranco_Resume", "C:\Users\Juand\source\repos\JuanAlbanFranco_Resume\JuanAlbanFranco_Resume\JuanAlbanFranco_Resume.rptproj", "{E01B91EF-F365-4996-9F7E-920C5E52D35E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E01B91EF-F365-4996-9F7E-920C5E52D35E}.Debug|Default.ActiveCfg = Debug
+		{E01B91EF-F365-4996-9F7E-920C5E52D35E}.Debug|Default.Build.0 = Debug
+		{E01B91EF-F365-4996-9F7E-920C5E52D35E}.Debug|Default.Deploy.0 = Debug
+		{E01B91EF-F365-4996-9F7E-920C5E52D35E}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{E01B91EF-F365-4996-9F7E-920C5E52D35E}.DebugLocal|Default.Build.0 = DebugLocal
+		{E01B91EF-F365-4996-9F7E-920C5E52D35E}.Release|Default.ActiveCfg = Release
+		{E01B91EF-F365-4996-9F7E-920C5E52D35E}.Release|Default.Build.0 = Release
+		{E01B91EF-F365-4996-9F7E-920C5E52D35E}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73CE1B5A-3618-4E76-B032-64069768D4E3}
+	EndGlobalSection
+EndGlobal
