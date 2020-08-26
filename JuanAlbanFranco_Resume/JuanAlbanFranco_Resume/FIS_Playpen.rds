@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FIS_Playpen">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DESKTOP-0M0BP5E;Initial Catalog=FIS_Playpen</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>fc1d93bd-4f4a-4342-8be5-ebec9dc074e9</DataSourceID>
+</RptDataSource>
