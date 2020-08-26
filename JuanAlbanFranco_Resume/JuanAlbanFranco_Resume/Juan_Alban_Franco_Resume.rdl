@@ -367,7 +367,7 @@ FROM            standardCharacterStrengths</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox22</rd:DefaultName>
             <Top>1.35625in</Top>
-            <Left>0.28in</Left>
+            <Left>0.2175in</Left>
             <Height>0.25in</Height>
             <Width>0.70833in</Width>
             <ZIndex>6</ZIndex>
@@ -389,7 +389,9 @@ FROM            standardCharacterStrengths</CommandText>
                 <TextRuns>
                   <TextRun>
                     <Value>=First(Fields!university.Value, "Education")</Value>
-                    <Style />
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
                   </TextRun>
                 </TextRuns>
                 <Style />
@@ -397,8 +399,10 @@ FROM            standardCharacterStrengths</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>=First(Fields!major.Value, "Education")</Value>
-                    <Style />
+                    <Value>="Major: " &amp; First(Fields!major.Value, "Education")</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
                   </TextRun>
                 </TextRuns>
                 <Style />
@@ -406,8 +410,10 @@ FROM            standardCharacterStrengths</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>=First(Fields!minor.Value, "Education")</Value>
-                    <Style />
+                    <Value>="Minor: " &amp; First(Fields!minor.Value, "Education")</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
                   </TextRun>
                 </TextRuns>
                 <Style />
@@ -445,7 +451,7 @@ FROM            standardCharacterStrengths</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox22</rd:DefaultName>
             <Top>2.10625in</Top>
-            <Left>0.29989in</Left>
+            <Left>0.23739in</Left>
             <Height>0.25in</Height>
             <Width>0.93701in</Width>
             <ZIndex>8</ZIndex>
@@ -569,7 +575,7 @@ FROM            standardCharacterStrengths</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox36</rd:DefaultName>
             <Top>2.56667in</Top>
-            <Left>0.29989in</Left>
+            <Left>0.26239in</Left>
             <Height>0.25in</Height>
             <Width>1in</Width>
             <ZIndex>12</ZIndex>
@@ -783,7 +789,7 @@ IIF(IsNothing(Fields!userEnddate.Value),"Current",cdate(Fields!userEnddate.Value
             <Top>2.89792in</Top>
             <Left>0.52145in</Left>
             <Height>0.5in</Height>
-            <Width>5.7898in</Width>
+            <Width>5.78979in</Width>
             <ZIndex>13</ZIndex>
             <Style>
               <Border>
